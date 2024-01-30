@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_form_menu_lists",
+  "info": {
+    "displayName": "menu-list",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "STEP {n}"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_form_form_inputs",
+  "info": {
+    "displayName": "form-inputs",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "input": {
+      "displayName": "input",
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input"
+    }
+  }
+}

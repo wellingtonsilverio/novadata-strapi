@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_form_plans",
+  "info": {
+    "displayName": "plans",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "plan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.plan-card"
+    }
+  }
+}

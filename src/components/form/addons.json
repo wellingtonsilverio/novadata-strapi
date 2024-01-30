@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_form_addons",
+  "info": {
+    "displayName": "addons",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "checkboxs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.checkbox"
+    }
+  }
+}

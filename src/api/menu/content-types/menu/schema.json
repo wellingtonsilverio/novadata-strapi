@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "list": {
+      "displayName": "menu-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "form.menu-list"
+    }
+  }
+}

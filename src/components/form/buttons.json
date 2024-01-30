@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_form_buttons",
+  "info": {
+    "displayName": "buttons",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "enumeration",
+      "enum": [
+        "next",
+        "back",
+        "confirm"
+      ]
+    }
+  }
+}

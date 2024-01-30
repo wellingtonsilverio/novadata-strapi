@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_form_buttons_lists",
+  "info": {
+    "displayName": "buttons-list",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "form.buttons"
+    }
+  }
+}

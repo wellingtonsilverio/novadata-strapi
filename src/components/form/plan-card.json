@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_form_plan_cards",
+  "info": {
+    "displayName": "plan-card",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "priceMonthly": {
+      "type": "string",
+      "required": true
+    },
+    "priceYearly": {
+      "type": "string"
+    },
+    "yearlyDiscount": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

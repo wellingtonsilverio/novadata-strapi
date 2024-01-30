@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_form_inputs",
+  "info": {
+    "displayName": "input",
+    "icon": "pencil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "text"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}
