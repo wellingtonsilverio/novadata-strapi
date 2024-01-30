@@ -14,11 +14,11 @@
   "attributes": {
     "heading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "subheading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "body": {
       "type": "dynamiczone",

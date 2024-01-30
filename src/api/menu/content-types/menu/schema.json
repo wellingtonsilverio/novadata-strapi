@@ -4,10 +4,11 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "menu"
+    "displayName": "menu",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {

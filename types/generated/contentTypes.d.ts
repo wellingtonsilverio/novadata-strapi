@@ -374,8 +374,8 @@ export interface ApiFormForm extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    heading: Attribute.String & Attribute.Required;
-    subheading: Attribute.String & Attribute.Required;
+    heading: Attribute.String;
+    subheading: Attribute.String;
     body: Attribute.DynamicZone<
       ['form.message', 'form.form-inputs', 'form.plans', 'form.addons']
     >;
@@ -397,14 +397,16 @@ export interface ApiMenuMenu extends Schema.SingleType {
     singularName: 'menu';
     pluralName: 'menus';
     displayName: 'menu';
+    description: '';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   attributes: {
     list: Attribute.Component<'form.menu-list', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<'api::menu.menu', 'oneToOne', 'admin::user'> &
       Attribute.Private;
     updatedBy: Attribute.Relation<'api::menu.menu', 'oneToOne', 'admin::user'> &

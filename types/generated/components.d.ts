@@ -39,11 +39,13 @@ export interface FormCheckbox extends Schema.Component {
   info: {
     displayName: 'checkbox';
     icon: 'check';
+    description: '';
   };
   attributes: {
     heading: Attribute.String & Attribute.Required;
     subheading: Attribute.String & Attribute.Required;
-    price: Attribute.String & Attribute.Required;
+    priceMonthly: Attribute.String & Attribute.Required;
+    priceYearly: Attribute.String & Attribute.Required;
   };
 }
 
