@@ -4,6 +4,10 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 
 ### `develop`
 
+### Login
+`wellington@exemple.com`
+`Ws123456!`
+
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
 ```
