@@ -72,6 +72,7 @@ export interface FormInput extends Schema.Component {
     type: Attribute.String & Attribute.Required & Attribute.DefaultTo<'text'>;
     required: Attribute.Boolean;
     placeholder: Attribute.String;
+    name: Attribute.String & Attribute.Required;
   };
 }
 
